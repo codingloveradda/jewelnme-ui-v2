@@ -1,0 +1,19 @@
+<svg id="Book_an_Appointment" data-name="Book an Appointment" xmlns="http://www.w3.org/2000/svg" width="26" height="25.703" viewBox="0 0 26 25.703">
+  <g id="Group_9901" data-name="Group 9901" transform="translate(-187.023 -94.999)">
+    <path id="Path_92" data-name="Path 92" d="M64.173,21.371a5.939,5.939,0,1,1-5.94-5.94A5.94,5.94,0,0,1,64.173,21.371Z" transform="translate(147.85 92.641)" fill="none" stroke="#192537" stroke-width="1.5"/>
+    <path id="Path_93" data-name="Path 93" d="M58.233,18.246v3.125h3.125" transform="translate(147.85 92.683)" fill="none" stroke="#192537" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_94" data-name="Path 94" d="M51.6,26.03H42.745a2.726,2.726,0,0,1-2.722-2.72V8.03a2.726,2.726,0,0,1,2.722-2.72H60.451a2.726,2.726,0,0,1,2.722,2.72v6.712" transform="translate(148 92.791)" fill="none" stroke="#192537" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Line_98" data-name="Line 98" y2="4.404" transform="translate(193.416 96)" fill="none" stroke="#192537" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_99" data-name="Line 99" y2="4.404" transform="translate(199.628 96)" fill="none" stroke="#192537" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_100" data-name="Line 100" y2="4.404" transform="translate(205.909 96)" fill="none" stroke="#192537" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_95" data-name="Path 95" d="M45.276,13.537h0a.977.977,0,1,1,.977-.977.976.976,0,0,1-.977.977" transform="translate(147.971 92.734)" fill="#192537"/>
+    <path id="Path_96" data-name="Path 96" d="M49.524,13.537h0a.977.977,0,1,1,.977-.977.976.976,0,0,1-.977.977" transform="translate(147.942 92.734)" fill="#192537"/>
+    <path id="Path_97" data-name="Path 97" d="M45.276,17.793h0a.977.977,0,1,1,.977-.977.976.976,0,0,1-.977.977" transform="translate(147.971 92.705)" fill="#192537"/>
+    <path id="Path_98" data-name="Path 98" d="M49.524,17.793h0a.977.977,0,1,1,.977-.977.976.976,0,0,1-.977.977" transform="translate(147.942 92.705)" fill="#192537"/>
+    <path id="Path_99" data-name="Path 99" d="M45.276,22.05h0a.977.977,0,1,1,.977-.977.976.976,0,0,1-.977.977" transform="translate(147.971 92.677)" fill="#192537"/>
+    <path id="Path_100" data-name="Path 100" d="M49.524,22.05h0a.977.977,0,1,1,.977-.977.976.976,0,0,1-.977.977" transform="translate(147.942 92.677)" fill="#192537"/>
+    <path id="Path_101" data-name="Path 101" d="M53.772,13.537h0a.977.977,0,1,1,.977-.977.976.976,0,0,1-.977.977" transform="translate(147.914 92.734)" fill="#192537"/>
+    <path id="Path_102" data-name="Path 102" d="M58.021,13.537h0A.977.977,0,1,1,59,12.56a.976.976,0,0,1-.977.977" transform="translate(147.885 92.734)" fill="#192537"/>
+  </g>
+  <rect id="Rectangle_7416" data-name="Rectangle 7416" width="26" height="25" fill="none"/>
+</svg>

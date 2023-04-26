@@ -1,0 +1,70 @@
+.bag-3-fresh {
+    background-color: $whiteF9;
+    box-shadow: 3px 3px 10px #00000029;
+    padding: 61px 67px;
+    @include flex-col;
+    gap: 40px;
+    margin-top: 50px;
+
+    .bag-3-fresh-deatils{
+        @include flex-col;
+        gap: 10px;
+        border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+        padding-bottom: 30px;
+
+        .bag-3-fresh-title{
+            padding-right: 16px;
+            p{
+                font-size: 16px;
+                color: $darkblack;
+                text-align: left;
+            }
+            span{
+                font-size: 16px;
+                color: $gold;
+            }
+        }
+    }
+
+    .bag-3-amount p, span{
+        font-size: 16px;
+        font-weight: 300;
+    }   
+    .payable{
+        border-top: 1px solid rgba(119, 125, 133, 0.3);
+        border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+        padding: 15px 0;
+
+        h2{
+            font-size: 16px;
+            font-weight: 600;
+        }
+     }
+
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+    .bag-3-fresh {
+        .bag-3-fresh-deatils{
+            .bag-3-fresh-title{
+                padding-right: 16px;
+                p{
+                    font-size: 14px;
+                }
+                span{
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .bag-3-amount p, span{
+            font-size: 14px;
+            
+        }   
+        .payable{
+            h2{
+                font-size: 16px;
+            }
+         }
+    }
+}

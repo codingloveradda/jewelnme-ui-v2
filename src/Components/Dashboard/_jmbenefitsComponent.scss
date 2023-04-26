@@ -1,0 +1,59 @@
+.jmbenefits{
+    display: flex;
+    border: 0.2px solid rgba(112, 112, 112, 0.3);
+    
+    
+
+    .title{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0000000D;
+        border-right: 0.2px solid rgba(112, 112, 112, 0.3);
+
+        h1{
+            color: $gold;
+            font-size: 36px;
+            font-weight: 700;
+        }
+    }
+    .right{
+        @include flex-col;
+        padding: 20px 30px;
+        width: 80%;
+        gap: 20px;
+       
+        .top{
+            @include flex-col;
+            font-size: 18px;
+            border-bottom: 0.2px solid rgba(112, 112, 112, 0.3);
+            gap: 10px;
+            padding-bottom: 10px;
+            h2{
+                color: $gray;
+            }
+            span{
+                color: $darkblack;
+            }
+        }
+
+        .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+            p{
+                color: $gray;
+            }
+            span{
+                color: $darkblack;
+            }
+            a{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}

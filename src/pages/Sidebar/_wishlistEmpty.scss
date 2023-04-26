@@ -1,0 +1,51 @@
+.wishlistEmpty {
+    @include flex-col;
+    align-items: center;
+    margin-top: 155px;
+    gap: 40px;
+
+    .image {
+        @include flex-col;
+        align-items: center;
+        gap: 20px;
+
+        .box {
+            width: 88px;
+            height: 10px;
+            background-color: $whiteF5;
+            border-radius: 50%;
+        }
+    }
+
+    .wishlist-content {
+        text-align: center;
+        @include flex-col;
+
+        padding: 0 10px;
+
+        h1 {
+            font-size: 25px;
+            font-weight: bold;
+            color: #192537;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+        }
+
+        p {
+            font-size: 18px;
+            color: $darkblack;
+        }
+    }
+
+    .wishlist-btn {
+
+
+        a {
+            color: $white;
+            background-color: $darkblack;
+            padding: 14px 40px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.sidebar-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(25, 37, 55, 0.3);
+    cursor: pointer;
+    z-index: 999;
+}
+
+.sidebar-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:70%;
+    background-color: white;
+    color: #192537;
+    z-index: 999;
+    transition: all 0.8s;
+}

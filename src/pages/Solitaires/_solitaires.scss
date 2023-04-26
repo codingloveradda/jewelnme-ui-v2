@@ -1,0 +1,108 @@
+.bag-nav{ 
+   padding: 31px 100px 13px 100px;
+ul {
+    display: flex;
+    gap: 16px;
+
+    li {
+        font-size: 16px;
+        color: $gray;
+    }
+
+    li:last-child {
+        color: $darkblack;
+    }
+}
+}
+.solitaires-para{
+    margin: 78px 485px;
+    width: 900px;
+    p{
+        font-size: 18px;
+        font-weight: 300;
+        color: $darkblack;
+        text-align: center;
+    }
+}
+// .solitaries-filter{
+//     padding:0 100px;
+//     display: flex;
+//     align-self: center;
+//     justify-content: center;
+
+
+//     ul{
+//         display: flex;
+//         gap: 114px;
+
+//         li{
+//             font-size: 20px;
+//             font-weight: 600;
+//             color: $gray;
+//         }
+//         li:first-child{
+//             color: $darkblack;
+//         }
+//         .li-second{
+//            border-left: 1px solid rgba(119, 125, 133, 0.5);
+//            border-right: 1px solid rgba(119, 125, 133, 0.5);
+//            padding: 0 100px;
+//         }
+//     }
+// }
+
+.drop-down{
+    border-top: 1px solid hsla(214, 6%, 49%, 0.5);
+    border-bottom: 1px solid hsla(214, 6%, 49%, 0.5);
+    padding: 15px 0;
+    background-color: $whiteF9;
+    // margin: 30px 0;
+}
+.clear-filter{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn-img{
+        width: 220px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 14px 40px;
+        border: 1px solid rgba(25, 37, 55, 0.5);
+
+        button{
+            font-size: 18px;
+            color: $darkblack;
+        }
+    }
+}
+.diamond-table{
+    padding: 50px 100px;
+
+    table{
+        width: 100%;
+
+        thead{
+            background-color: $darkblack;
+            color: $white;
+          tr th{
+            padding: 17px 0;
+          }
+        }
+        tbody{
+           padding: 10px 96px;
+           tr{
+            border-bottom: 1px solid rgba(119, 125, 133, 0.5);
+            padding-bottom: 10px;
+            td{
+                text-align: center;
+                padding: 10px 0;
+                font-size: 16px;
+                color: $darkblack;
+               }
+           }
+          
+        }
+    }
+}

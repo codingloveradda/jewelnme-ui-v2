@@ -1,0 +1,65 @@
+.profile{
+    box-shadow: 2px 2px 10px #00000008;
+    width: 596px;
+    height: 98vh; 
+  
+    
+    .profile-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 50px;
+        margin-top: 177px;
+        gap: 57px;
+
+        .profile-detail{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 26px;
+
+            h1{
+               font-size: 25px;
+               font-weight: bold;
+               color: #192537;
+               font-family: 'Josefin Sans', sans-serif;
+               font-family: 'Montserrat', sans-serif;
+               font-family: 'Nunito', sans-serif;
+               font-family: 'Playfair Display', serif;
+               
+            }
+            p{
+                font-size: 18px;
+                font-weight: 300;
+                color: #192537;
+                text-align: center;
+                height: 119px;
+            }
+        }
+
+        .button{
+             display: flex;
+             flex-direction: column;
+             gap: 26px;
+
+             a{
+                background-color: #192537;
+                color: #fff;
+                padding: 14px 217px;
+                font-size: 18px;
+             }
+        }
+    }
+}
+
+.bag-content{
+    h1{
+        font-size: 25px;
+        font-weight: bold;
+        color: #192537;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+    }
+}

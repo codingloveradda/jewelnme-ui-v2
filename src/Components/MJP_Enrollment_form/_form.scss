@@ -1,0 +1,51 @@
+.form_heading{
+    h1 {
+        font-size: 2.25rem
+            /* 36px */
+        ;
+        font-weight: 800;
+        color: #A18A66;
+        font-family: 'Cinzel', serif;
+    }
+}
+
+.self_btn{
+    border: 1px solid rgba(119, 125, 133, 0.3);
+border-radius: 2px;
+opacity: 1;
+}
+
+.form_data{
+    label {
+        font-size: 1rem;
+        /* 16px */
+    }
+
+    select {
+        border: 1px solid rgba(119, 125, 133, 0.3);
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        color: #777D85;
+    }
+
+    input {
+        border: 1px solid rgba(119, 125, 133, 0.3);
+        border-radius: 2px;
+
+        ::placeholder {
+            color: #777D85;
+        }
+
+    }
+
+    .date_option {
+        label {
+            color: #777D85;
+        }
+
+        input {
+            font-size: 1.125rem;
+            /* 18px */
+        }
+    }
+}

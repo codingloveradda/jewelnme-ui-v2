@@ -1,0 +1,172 @@
+@import "../../styles/substyles/colors";
+@import "../../styles/substyles/mixin";
+
+.mjp_consult_wrapper {
+
+    .mjp_consult {
+        color: $officailBlue;
+
+        h1 {
+            font-weight:  600;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .btn_mjp_consult {
+            @include borders(1px, rgba(119, 125, 133, 0.3));
+            padding: 12px 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px
+        }
+
+        .mjp_consult_descrip {
+            font-weight: 300;
+            color: $gray;
+            text-align: justify;
+        }
+    }
+}
+
+.Solitaires_diamonds {
+    background-color: $firstBGColor;
+
+    .diamond_hover:hover {
+        transform: translate(20px 20px);
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.carousel {
+    padding: 80px 0px;
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .carousel_cards {
+        .carousel_card {
+            h2 {
+                padding-top: 30px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            p {
+                font-weight: 300;
+                color: $fontGray;
+                font-size: small;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.New-Arrivals {
+    height: 650px;
+
+    h1 {
+        text-align: center;
+        color: $officailBlue;
+        font-size: 36px;
+        padding: 50px 0;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .New-Arrivals_wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.user-review {
+    height: 592px;
+    background-color: $secBG;
+    margin-top: 100px;
+
+    h1 {
+        text-align: center;
+        color: $officailBlue;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .lastone {
+        opacity: .5;
+    }
+
+    .seclast {
+        opacity: .8;
+    }
+
+    .review_description {
+        h1 {
+            font-size: 20px;
+            margin-top: 25px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 24px;
+            width: 586px;
+            font-weight: 300;
+
+        }
+    }
+
+    .Rating_Stars {
+        margin-top: 20px;
+        color: goldenrod;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+.Social_share {
+    h1 {
+        color: $officailBlue;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.Social_share {
+    img {
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    }
+
+    ul {
+        // text-base font-light
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

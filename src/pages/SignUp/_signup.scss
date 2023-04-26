@@ -1,0 +1,36 @@
+@import '../../styles/substyles/mixin';
+@import "../../styles/substyles/colors";
+
+.login_section {
+    .regsi_login{
+        @include borders;
+        padding: 8px 30px;
+        @include Bradius(8px);
+        font-size: 16px
+        // border border-black rounded py-[8px] px-[30px] text-base
+    }
+}
+
+
+.registration_form {
+    .btn_registr_mobile {
+        @include borders (1px, $officailBlue );
+        @include Bradius(8px);
+        padding: 8px 30px;
+        font-size: 16px;
+        background-color: $fontWhite;
+        font-weight: 400;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        color: $fontGray;
+    }
+
+    .btn_registr_email {
+        background-color: $fontWhite;
+        @include Bradius(8px);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 8px 30px;
+        font-size: 16px;
+        font-weight: 400;
+        color: $fontGray;
+    }
+}

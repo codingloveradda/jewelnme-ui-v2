@@ -1,0 +1,29 @@
+.mjp_payment {
+    label {
+        font-size: 1.125rem
+            /* 18px */
+        ;
+    }
+
+    .acknowledge {
+        p {
+            font-weight: 300;
+            color: #777D85;
+        }
+    }
+
+    .term {
+        font-size: 0.875rem
+            /* 14px */
+        ;
+
+        p {
+            color: #777D85;
+        }
+
+        span{
+            color: #A18A66;
+        }        
+
+    }
+}

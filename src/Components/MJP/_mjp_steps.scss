@@ -1,0 +1,51 @@
+.mjp_steps {
+    margin: 120px 120px 0 120px;
+
+    h1 {
+        font-size: 2.25rem
+            /* 36px */
+        ;
+        text-align: center;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .mjp_cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 138px;
+
+        .step_cards {
+            position: relative;
+            background: transparent linear-gradient(180deg, #F9F9F9 0%, #F2F2F2 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 5px 10px #00000029;
+            border-radius: 15px;
+            opacity: 1;
+            width: 339px;
+            height: 270px;
+            padding: 0 10px 0 10px;
+
+            h2{
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            div ~ p{
+                font-size: 16px;
+                color: #777D85;
+                margin-top: 1.5rem/* 24px */;
+            }
+
+            p ~ p{
+                font-size: 81px;
+                color: #182D39;
+                opacity: 0.1;
+                font-weight: 700;
+                margin-top: 24px;
+            }
+        }
+
+        
+    }
+}

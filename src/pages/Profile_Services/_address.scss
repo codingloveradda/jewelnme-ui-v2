@@ -1,0 +1,57 @@
+.detail {
+
+    border-bottom: 1px solid rgba(119, 125, 133, 0.5);
+}
+
+.panel {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #777D85;
+
+    h1 {
+        color: #A18A66;
+    }
+
+}
+
+.address {
+    font-size: 1.25rem;
+
+    span {
+        color: #A18A66;
+    }
+    
+    p {
+        padding-left: 2.5rem;
+    }
+}
+
+
+.action_btn {
+    a {
+        opacity: 1;
+        font-size: 18px;
+        color: #FFFFFF;
+        background: #192537 0% 0% no-repeat;
+        padding: 14px 50px;
+        cursor: pointer;
+    }
+}
+.new_address {
+    font-size: 1.125rem;
+    font-weight: 600;
+
+    a {
+        border: 1px solid #192537;
+        border-radius: 0.125rem;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    .action_btn {
+        a{
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.authenticity{
+
+    .title{
+        
+        p{
+            font-size: 1.5rem/* 24px */;
+            font-weight: 700;
+            padding: 112px 0 112px 0;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+
+    .jewelry_work{
+
+        h2{
+            font-size: 1.25rem/* 20px */;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+
+            span{
+                font-style: italic;
+                font-family: 'Playfair Display', serif;
+            }    
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 19px;
+        }
+
+        ul li{
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 30px;
+            margin-left: 28px;
+
+            span{
+                font-weight: 400;
+            }
+        }
+       
+    }
+}

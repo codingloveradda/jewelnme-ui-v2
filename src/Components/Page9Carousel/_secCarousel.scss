@@ -1,0 +1,23 @@
+@import "../../styles/substyles/colors";
+@import "../../styles/substyles/mixin";
+
+.Stay_social {
+    h1 {
+        color: $officailBlue;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+    }
+    
+
+    p {
+        color: $officailBlue;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+}

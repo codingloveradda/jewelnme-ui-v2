@@ -1,0 +1,50 @@
+.jmbenefits{
+    .jm-benfit-spcial{
+        width: 30%;
+        @include flex-col;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.0509803922);
+        border-right: 0.2px solid rgba(112, 112, 112, 0.3); 
+        span{
+            font-size: 28px;
+            font-weight: 600;
+            color: $gold;
+            border-bottom: 0.2px solid rgba(119, 125, 133, 1);
+            padding-bottom:15px;
+        }
+        p{
+            font-size: 28px;
+            font-weight: 600;
+            color: $gray;
+            padding-top: 15px;
+        }
+    }
+    .right{
+        .top{
+            span{
+                color: #51901C;
+                font-size: 16px;
+            }
+            h5{
+                font-size: 16px;
+                font-weight: 300;
+                color: $darkblack;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 300;
+                color: $darkblack;
+            }
+        }
+
+        .bottom{
+            p{
+                font-size: 16px;
+            }
+            span{
+                color: $darkblack;
+            }
+        }
+    }
+}

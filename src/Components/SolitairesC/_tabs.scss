@@ -1,0 +1,35 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tabs__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 116px;
+}
+
+.tabs__item {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: $gray;
+}
+
+.tabs__item--active {
+    //   background-color: #ccc;
+    border-bottom: 2px solid $darkblack;
+    color: $darkblack;
+}
+
+.tabs__content {
+    // display: none;
+    width: 100%;
+    padding: 0;
+}

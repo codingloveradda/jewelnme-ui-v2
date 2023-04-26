@@ -1,0 +1,9 @@
+@import "../../styles/substyles/colors";
+@import "../../styles/substyles/mixin";
+
+.WishlistBar{
+    @include bottem-shadow;
+    padding-bottom:10px     ;
+}
+
+

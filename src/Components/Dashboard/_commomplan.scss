@@ -1,0 +1,305 @@
+.common{
+    @include flex-col;
+    background: rgba(255, 255, 255, 1);
+    border: 0.2px solid rgba(112, 112, 112, 0.3);
+    border-radius: 10px;
+    // margin-top: 10px;
+
+    .common-details{
+        display: flex;
+        .common-content{
+            @include flex-col;
+            width: 70%;
+
+            .MJP{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+                padding: 16px 38px 10px 38px;
+
+                .right{
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    h2{
+                        font-size: 34px;
+                        color: $gold;
+                        font-weight: 700;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: $darkblack;
+                    }  
+                }
+                .left{
+                    display: flex;
+                    gap: 10px;
+
+                    p{
+                        font-size: 18px;
+                    }
+                 } 
+            }
+            .bottom{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 30px;
+                border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+                font-size: 16px;
+                color: $darkblack;
+
+                .right{
+                    @include flex-col;
+                    width: 45%;
+                    gap: 30px;
+
+                    .right-c{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+                .left{
+                    @include flex-col;
+                    width: 45%;
+                    gap: 30px;
+
+                    .left-c{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                      
+                    }
+                }
+            }
+        }
+        .common-content-right{
+            width: 30%;
+            background-color: $whiteF9;
+            border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+            border-left: 1px solid rgba(112, 112, 112, 0.3);
+            @include flex-col;
+            align-items: center;
+            justify-content: center;
+            gap: 67px;
+            // border: 0.2px solid rgba(112, 112, 112, 1);
+            border-radius: 0px 10px 0px 0px;
+
+            .top-btn{
+                @include flex-col;
+                gap: 25px;
+                align-items: center;
+
+                p{
+                    font-size: 14px;
+                    color: $darkblack;
+                }
+                a{
+                    background-color: $darkblack;
+                    color: $white;
+                    font-size: 18px;
+                    padding: 14px 50px;
+                }
+            }
+            .bottom-img{
+                @include flex-col;
+                gap: 15px;
+                align-items: center;
+                 
+                .line-img{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+
+                    span{
+                        font-size: 23px;
+                        color: $gold;
+                    }
+                 }
+
+                p{
+                    font-size: 14px;
+                    color: $darkblack;
+                }
+            }
+
+        }
+    }
+    .payment-history{
+        padding: 13px 30px;
+           
+        
+            p{
+                font-size: 18px;
+                color: $darkblack;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+               
+            }
+           
+
+        .payment-table{
+            display: none;
+            padding: 15px 0px;
+
+            table{
+                width: 100%;
+                text-align: center;
+
+                thead{
+                     background-color: $whiteF2;
+                     font-size: 16px;
+                     font-weight: 600;
+                     color: $darkblack;
+
+                     th{
+                        border: 1px solid rgba(119, 125, 133, 0.3);
+                     }
+                }
+            tbody
+                {
+                 font-size: 16px;
+                 color: $darkblack;
+
+                 td{
+                    border: 1px solid rgba(119, 125, 133, 0.3);
+                 }
+                }
+            }
+        }
+
+        
+    }
+    .payment-history:hover .payment-table{
+        display: block;
+        position: relative;
+        transition: ease;
+        transition-duration: 500ms;
+
+    }
+    .payment-history:hover .drop{
+        transform: rotate(180deg);
+        transition-duration: 500ms;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+    .common{
+        .common-details{
+            @include flex-col;
+            .common-content{
+                @include flex-col;
+                width: 100%;
+                .MJP{
+                    padding: 16px 20px 10px 20px;
+                    .right{
+                        h2{
+                            font-size: 26px;
+                        }
+                        p{
+                            font-size: 18px;
+                            display: none;
+                        }  
+                    }
+                    .left{
+                        display: flex;
+                        gap: 10px;
+                        p{
+                            font-size: 14px;
+                        }
+                     } 
+                }
+                .bottom{
+                    padding: 20px;
+                    font-size: 14px;
+                }
+            }
+            .common-content-right{
+                width: 100%;
+                gap: 30px;
+                padding: 20px;
+                .top-btn{
+                    gap: 15px;
+                    p{
+                        font-size: 14px;
+                        color: $darkblack;
+                    }
+                    a{
+                        font-size: 14px;  
+                    }
+                }
+                .bottom-img{
+                    @include flex-col;
+                    gap: 10px;
+                    align-items: center;
+                     
+                    .line-img{
+                        gap: 12px;
+    
+                        span{
+                            font-size: 18px;
+                        }
+                     }
+                }
+    
+            }
+        }
+        .payment-history{
+            padding: 13px 20px;
+                p{
+                    font-size: 14px;
+                }
+               
+    
+            .payment-table{
+                display: none;
+                padding: 15px 0px;
+    
+                table{
+                    width: 100%;
+                    text-align: center;
+    
+                    thead{
+                         background-color: $whiteF2;
+                         font-size: 16px;
+                         font-weight: 600;
+                         color: $darkblack;
+    
+                         th{
+                            border: 1px solid rgba(119, 125, 133, 0.3);
+                         }
+                    }
+                tbody
+                    {
+                     font-size: 16px;
+                     color: $darkblack;
+    
+                     td{
+                        border: 1px solid rgba(119, 125, 133, 0.3);
+                     }
+                    }
+                }
+            }
+    
+            
+        }
+        .payment-history:hover .payment-table{
+            display: block;
+            position: relative;
+            transition: ease;
+            transition-duration: 500ms;
+    
+        }
+        .payment-history:hover .drop{
+            transform: rotate(180deg);
+            transition-duration: 500ms;
+        }
+    
+    }
+}

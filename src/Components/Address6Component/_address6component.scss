@@ -1,0 +1,115 @@
+@import '../../styles/substyles/colors';
+@import '../../styles/substyles/mixin';
+
+
+.address-component{
+         @include flex-col;
+         gap: 25px;
+    h1{
+        font-size: 20px;
+        color: $darkblack;
+    }
+    .default-addres  span{
+        color: $gray;
+        font-size: 16px;
+    }
+    .Addrss6{
+        border-top: 0.2px solid rgba(112, 112, 112, 0.3);
+        border-bottom: 0.2px solid rgba(112, 112, 112, 0.3);
+    
+        @include flex-col;
+        gap: 20px;
+        padding: 20px 30px;
+     
+    
+        .name-icon{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .name{
+                font-size: 18px;
+                color: $darkblack;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+    
+                span{
+                    color: $gold;
+                }
+            }
+          
+        }
+        .addres6-city{
+            @include flex-col;
+            gap: 8px;
+            font-size: 18px;
+            color: $darkblack;
+            padding-left: 27px;
+            span{
+             color: $gray;
+            }
+            }
+          .mobile{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 27px;
+    
+            span{
+                color: $gray;
+            }
+          }
+            
+        
+    }
+    .address6-btn{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    border: 0.2px solid rgba(119, 125, 133, 0.3);
+    color: $darkblack;
+    font-size: 18px;
+    width: 24%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .address-component{
+        gap: 15px;
+   h1{
+       font-size: 16px;
+   }
+   .default-addres  span{
+       font-size: 14px;
+   }
+   .Addrss6{
+       padding: 15px 30px;
+       .name-icon{
+           .name{
+               font-size: 14px;
+           } 
+       }
+       .addres6-city{
+           font-size: 14px;
+           }
+           .mobile{
+            font-size: 14px;
+           }
+    }       
+    .address6-btn{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        border: 0.2px solid rgba(119, 125, 133, 0.3);
+        color: $darkblack;
+        font-size: 14px;
+        width: 30%;
+        }
+   } 
+}

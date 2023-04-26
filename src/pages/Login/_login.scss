@@ -1,0 +1,77 @@
+@import '../../styles/substyles/mixin';
+@import "../../styles/substyles/colors";
+
+.Login-form {
+
+  .logIn-before::after {
+    height: 1px;
+    width: 150px;
+    color: black;
+  }
+
+  .mobile_email {
+    display: flex;
+    justify-content: center;
+
+    .mobile_btn {
+      border-radius: 8px;
+      padding: 8px 30px;
+      background-color: white;
+      font-size: 16px;
+      margin-right: 40px;
+      @include borders(1px, black);
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .email_btn {
+      color: #777D85;
+      border-radius: 8px;
+      padding: 8px 35px;
+      background-color: white;
+      font-size: 16px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+  }
+
+  .mobile_number {
+    background-color: transparent;
+    border: 1px solid #777D85;
+  }
+
+  .btn_login_main {
+    background-color: $officailBlue;
+    padding: 8px 225px;
+    font-size: 16px;
+    color: $fontWhite;
+    @include borders(1px, $officailBlue);
+  }
+
+  .hoverable {
+    .input_hover {
+      display: none;
+      transform: 1s;
+    }
+  }
+
+  .input_pass {
+    width: 500px;
+
+
+  }
+
+  .hoverable:hover .input_hover {
+    display: block;
+    transition: ease-in-out;
+    background: inherit;
+  }
+
+}
+
+
+.Registration_bar {
+
+  .regsiter_btn {
+    @include borders(1px, black);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}

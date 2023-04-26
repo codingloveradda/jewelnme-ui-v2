@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Kumbh+Sans:wght@100;200;300;400;500;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@300&family=Nunito:wght@300&family=Playfair+Display&display=swap');
+
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Nunito', sans-serif;
+// font-family: 'Playfair Display', serif;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Product_page_suggestion {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #192537;
+}
+
+
+.diamond-img h1{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 80px;
+    position: absolute;
+    left: 100px;
+    bottom: 86px;
+    
+}
+
+@import "../Components/Address6Component/address6component";
+@import "../Components/Authenticity/content";
+@import "../Components/Buy_With_MJP/mjp";
+@import "../Components/Contact_us/contact_form";
+@import "../Components/CouponC/specialcoupon";
+
+@import "../Components/Dashboard/cards";
+@import "../Components/Dashboard/commomplan";
+@import "../Components/Dashboard/fresh";
+@import "../Components/Dashboard/jmbenefitsComponent";
+@import "../Components/Dashboard/maindashboard";
+
+
+// PAGE-5
+@import "../pages/Coupon/apply_coupon";
+
+// modal
+@import '../styles//substyles/modal';
+
+// sidebar
+@import '../styles/substyles/sidebar';
+
+
+@import "../pages/Login/login";
+@import "./substyles/mixin";
+@import "./substyles/colors";
+@import "../pages/SignUp/signup";
+@import "../pages/Header/navbar";
+@import "../pages/Footer/footer";
+@import "../Components/Mega-menus/megaMenus";
+@import "../Components/OurPromise/ourpromise";
+@import "../pages/MainHome/mainpage";
+@import "../pages/AllRIngs/AllRings";
+@import "../Components/Stones/stones";
+
+
+@import "../Components/ProductCardP9/ProductCardP9";
+
+
+
+
+
+// sidebar
+@import '../pages/Sidebar/profile';
+@import '../pages/Sidebar/wishlist';
+@import '../pages/Sidebar/bag';
+@import '../pages/Sidebar/wishlistEmpty';
+@import '../pages/Sidebar/sidebarheader';
+@import '../pages/Sidebar/sidebardashboard';
+// dashboard
+@import '../Components/Dashboard/maindashboard';
+@import '../Components/Dashboard/mainname';
+@import '../Components/Dashboard/commomplan';
+@import '../Components/Dashboard/nav';
+@import "../Components/Dashboard/fresh";
+@import "../Components/Dashboard/cards";
+@import "../Components/Dashboard/saveaddress";
+@import "../Components/Dashboard/jmcashComponent";
+@import "../Components/Dashboard/table";
+@import "../Components/Dashboard/notificationComponent";
+@import "../Components/Dashboard/jmbenefitsComponent";
+@import "../Components//Dashboard/myordercomponent";
+@import "../Components/Dashboard/myorderbtn";
+
+// page18 solitaires
+@import "../pages/Solitaires/solitaires";
+
+// page-18 Component
+@import "../Components//SolitairesC/diamond-carat";
+@import "../Components/SolitairesC/shapeprice";
+@import "../Components/SolitairesC/tabs";
+
+
+// page38
+@import '../pages/MyDashboard/myDashboard';
+
+// page39
+@import '../pages/MyInformation/myinformation';
+
+// page40
+@import "../pages/MySavedAddress/mysavedadess";
+
+// page41
+@import '../pages/JmCash/jmcash';
+
+// page45
+@import "../pages/MyRefernces/myrefernces";
+
+// page42
+@import "../pages/JmBenefits/jmbenefits";
+
+// page43
+@import "../pages/MyJewelPlan/myjewlplan";
+
+// header-footer-2
+@import "../Components/Header-2/header_2";
+@import "../Components/Footer-2/footer-2";
+
+// header-3
+@import "../Components/Header-3/header_3";
+
+// page53
+@import "../pages/OrdersDetails/ordersdetails";
+
+
+
+@import "../Components/Socialmedia/soicalmedia";
+
+// page11_component
+@import "../Components/Product_PageC/product_image";
+@import "../Components//Product_PageC/product_detail";
+@import "../Components/Product_PageC/addtiontable";
+
+
+
+// ak
+
+
+@import '../pages/Profile_Services/clean';
+@import '../pages/Profile_Services/customize';
+@import '../pages/Profile_Services/exchange';
+@import '../pages/Profile_Services/repair';
+@import '../pages/Profile_Services/address';
+@import '../pages/Profile_Services/pickup';
+@import '../pages/Profile_Services/confirm';
+@import '../pages/Profile_Services/submitted';
+
+
+@import '../Components/Help_Service/alert';
+@import '../Components/Help_Service/whatsapp';
+@import '../Components/Help_Service/mobile';
+
+
+@import '../pages/Book_Appointment/consult';
+@import '../pages/Book_Appointment/day';
+@import '../pages/Book_Appointment/final';
+@import '../pages/Book_Appointment/completed';
+
+
+@import '../Components/Buy_With_MJP/mjp';
+
+
+// @import '../Components/Coupon/apply_coupon';
+
+@import '../Components/MJP_Enrollment_form/form';
+@import '../pages/MJP_Enrollment_form/form1';
+@import '../pages/MJP_Enrollment_form/form3';
+@import '../pages/MJP_Enrollment_form/form4';
+@import '../pages/MJP_Enrollment_form/form7';
+
+
+@import '../pages/WishlistP/wishlistP';
+
+
+@import '../pages/Shipping_Bag/payment23';
+@import '../pages/Shipping_Bag/bag_3';
+@import '../pages/Shipping_Bag/bag_2';
+@import '../pages/Shipping_Bag/bag16';
+@import '../pages/Shipping_Bag/address6';
+@import '../Components/Address6Component/address6component';
+
+
+@import '../Components/Contact_us/contact_form';
+
+
+@import '../Components/MJP/banner';
+@import '../Components/MJP/FAQ';
+@import '../Components/MJP/calculator';
+@import '../Components/MJP/mjp_steps';
+@import '../Components//MJP/jewel_plan';
+
+
+@import '../Components/Metal/common_metal';
+@import '../Components/Metal/other_metals';
+
+
+@import '../Components/Authenticity/content';
+
+
+@import '../Components/Gem_Stone/birthstones';
+
+
+@import '../Components/Diamonds/details';
+@import '../Components/Diamonds/shape';
+
+// Carousel
+@import "../Components/Page9Carousel/firstCarousel";
+@import "../Components/Page9Carousel/secCarousel";

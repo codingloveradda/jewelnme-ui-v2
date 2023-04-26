@@ -1,0 +1,35 @@
+.transaction-icon{
+    border: 0.1px solid rgba(119, 125, 133, 0.3);
+    border-radius:  10px; 
+    border-top: none;
+    background-color: $whiteF9;
+    .trans-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 30px;
+ 
+    
+        span{
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+
+.transaction-icon:hover .jmpoint-table{
+    display: block;
+}
+.jmpoint-table{
+    display: none;
+}
+
+.jmcoupon p{
+    font-size: 20px;
+    font-weight: 600;
+    color: $darkblack;
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid rgba(119, 125, 133, 0.3);
+
+}

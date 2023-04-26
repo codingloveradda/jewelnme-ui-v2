@@ -1,0 +1,42 @@
+.information {
+
+    input {
+        border: 0.20000000298023224px solid rgba(25, 37, 55, 0.3);
+        border-radius: 2px;
+        opacity: 1;
+        width: 430px;
+        margin-top: 10px;
+        padding: 12px;
+    }
+
+    button {
+        border: 1px solid rgba(25, 37, 55, 1);
+        border-radius: 2px;
+        opacity: 1;
+        font-size: 1.125rem;
+        padding: 9px;
+        width: 313px;
+    }
+
+    textarea {
+        border: 0.20000000298023224px solid rgba(25, 37, 55, 0.3);
+        border-radius: 2px;
+        opacity: 1;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.selected_day {
+    p {
+        color: #A18A66;
+    }
+
+    a {
+        font-size: 1.125rem;
+        color: white;
+        background: rgba(25, 37, 55, 1) 0% 0% no-repeat padding-box;
+        border-radius: 2px;
+        opacity: 1;
+    }
+}

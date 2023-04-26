@@ -1,0 +1,12 @@
+.Solitaires_diamonds_tab{
+    .tab-view{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border : 1px solid black 
+        height:212px
+    }
+    .tab-view:nth-child(even){
+        background-color: #F2F2F2;
+    }
+}

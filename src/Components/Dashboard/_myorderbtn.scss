@@ -1,0 +1,13 @@
+.fresh-btn 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    button{
+    background-color: $darkblack;
+    color: $white;
+    padding: 12px 35px;    
+    font-size: 14px;
+}
+}

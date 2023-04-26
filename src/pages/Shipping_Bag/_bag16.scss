@@ -1,0 +1,202 @@
+.bag_16 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding-right: 60px;
+    border-right: 1px solid rgba(119, 125, 133, 0.3);
+    gap: 40px;
+    // padding-top: 38px;
+
+    .bag-nav 
+    {
+       padding: 0;
+     ul {
+        display: flex;
+        gap: 16px;
+
+        li {
+            font-size: 16px;
+            color: $gray;
+        }
+
+        li:last-child {
+            color: $darkblack;
+        }
+      }
+    }
+
+    .bag_title h1 {
+        font-size: 36px;
+        color: $darkblack;
+        font-weight: 700;
+        border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+        // padding-bottom: 10px;
+    }
+    .bag_img{
+       .fresh-img{
+        width: 290px;
+       } 
+    .bag_16-fresh {
+        background-color: $whiteF9;
+        width: 100%;
+        padding: 35px 40px 35px 50px;
+
+        .bag_16-fresh_title p {
+            font-size: 20px;
+            color: $darkblack;
+
+            span {
+                color: $gold;
+            }
+        }
+
+        .drop-down-bag {
+          position: relative;
+        p {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        table{
+            display: none;
+            border-top: 1px solid rgba(119, 125, 133, 0.5);
+           tr{
+            font-size: 14px;
+            display: flex;
+            gap: 40px;
+            padding: 5px 0;
+           }
+        }
+      }
+      .drop-down-bag:hover table{
+        display: block;
+      } 
+
+        .bag-16-btn {
+            border: 1px solid rgba(119, 125, 133, 0.3);
+            padding: 12px 30px;
+        }
+    }
+    }
+}
+
+.edit-bag {
+
+    .bag-gift {
+        border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+        padding-bottom: 25px;
+
+        h2 {
+            font-size: 16px;
+            color: $darkblack;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        span {
+            color: $gold;
+            font-weight: 600;
+        }
+    }
+
+    .bag-jm-btn {
+        border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+        padding-bottom: 25px;
+
+        h1{
+            font-size: 18px;
+        }
+
+        button {
+            padding: 14px 40px;
+            border: 1px solid $darkblack;
+            border-radius: 2px;
+            font-size: 18px;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+
+    .bag_16 {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        padding-right: 30px;
+        border-right: 1px solid rgba(119, 125, 133, 0.3);
+        gap: 20px;
+        // padding-top: 38px;
+    
+        .bag-nav 
+        {
+          
+         ul  {
+    
+            li {
+                font-size: 14px;
+            }
+    
+          }
+        }
+    
+        .bag_title h1 {
+            font-size: 26px;
+        }
+    
+        .bag_img{
+            .fresh-img{
+             width: 140px;
+             height: 140px;
+            } 
+         .bag_16-fresh {
+             background-color: $whiteF9;
+             width: 100%;
+             padding: 35px 40px 35px 50px;
+     
+             .bag_16-fresh_title p {
+                 font-size: 20px;
+                 color: $darkblack;
+     
+                 span {
+                     color: $gold;
+                 }
+             }
+     
+             .drop-down-bag p {
+                 font-size: 14px;
+                 font-weight: 600;
+     
+             }
+     
+             .bag-16-btn {
+                 border: 1px solid rgba(119, 125, 133, 0.3);
+                 padding: 12px 30px;
+             }
+         }
+         }
+    }
+    .edit-bag {
+        .bag-gift {
+            h2 {
+                font-size: 14px;
+            }
+            p {
+                font-size: 14px;
+            } 
+        }
+    
+        .bag-jm-btn {
+         
+            h1{
+                font-size: 14px;
+            }
+    
+            button {
+                padding: 10px 40px;
+                
+                font-size: 14px;
+            }
+        }
+    }
+}

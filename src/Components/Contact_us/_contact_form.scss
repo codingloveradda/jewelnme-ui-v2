@@ -1,0 +1,41 @@
+.contact_form {
+    color: #192537;
+    border-top: 1px solid rgba(25, 37, 55, 0.1);
+    h1 {
+        font-size: 2.25rem
+            /* 36px */
+        ;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+    }
+
+    form {
+        input, textarea {
+            border: 1px solid rgba(25, 37, 55, 0.1);
+            border-radius: 2px;
+            opacity: 1;
+            width: 100%;
+
+            ::placeholder{
+                color: #777D85;
+            }
+        }
+
+        button{
+            background-color: #192537;
+            color:#FFFFFF;
+            font-size: 18px;
+        }
+    }
+
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 33px;
+    }
+
+    p{
+       font-size: 18px; 
+       color: #777D85;
+    }
+}

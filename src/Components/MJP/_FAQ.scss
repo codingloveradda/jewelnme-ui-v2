@@ -1,0 +1,31 @@
+.generic_questions {
+    h1 {
+        font-size: 2.25rem
+            /* 36px */
+        ;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem
+            /* 24px */
+        ;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .questions>div {
+        border-bottom: 1px solid rgba(119, 125, 133, 0.5);
+        padding: 24px 12px 16px 8px;
+        gap: 120px;
+    }
+
+    p {
+        font-size: 1.125rem
+            /* 18px */
+        ;
+
+    }
+}

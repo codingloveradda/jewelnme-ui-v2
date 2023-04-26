@@ -1,0 +1,72 @@
+.apply-coupon{
+    position: relative;
+
+    .apply-icons-cros{
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 32px;
+        padding: 8px;
+        position: absolute;
+        right: 32px;
+        top: 30px;
+    }
+    .img_title {
+         position: absolute;
+         left: 50px;
+         bottom: 25px;
+        p {
+            font-family: 'Playfair Display', serif;
+            color: rgba(242, 242, 242, 0.5);
+            font-size: 53px;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.coupon_details {
+
+    label {
+        font-size: 1.125rem;
+    }
+
+    textarea {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid rgba(25, 37, 55, 0.3);
+        border-radius: 2px;
+        opacity: 1;
+        color: rgba(119, 125, 133, 0.5);
+        font-size: 1.125rem
+    }
+
+    input{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid rgba(25, 37, 55, 0.3);
+        border-radius: 2px;
+    }
+
+    input::placeholder{
+        color: rgba(25, 37, 55, 0.3);
+       
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+.apply-coupon{
+    .img_title {
+        p {
+            font-size: 45px;
+        }
+    }
+}
+
+
+.coupon_details {
+
+    label {
+        font-size: 16px;
+    }
+    textarea {
+        font-size: 16px;
+    }
+}
+}

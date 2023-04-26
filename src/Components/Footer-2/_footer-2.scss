@@ -1,0 +1,34 @@
+.footer-2{
+    background-color: $whiteF9;
+    padding: 36px 100px;
+
+    .footer-2-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 200px;
+        p{
+        font-size: 16px;
+        color: $darkblack;
+    }
+}
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .footer-2{
+        @include flex-col;
+        align-items: center;
+        padding: 47px 10px;
+        gap: 40px;
+         .footer-2-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            p{
+                font-size: 12px;
+            }
+         }
+      
+    }
+}

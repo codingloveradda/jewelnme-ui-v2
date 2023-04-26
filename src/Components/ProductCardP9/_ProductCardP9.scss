@@ -1,0 +1,103 @@
+@import "../../styles/substyles/colors";
+@import "../../styles/substyles/mixin";
+
+
+
+.Product_card_wrapper {
+    width: 350px;
+
+    .Product_card {
+        position: relative;
+        border-radius: 2px;
+
+        .Product_heart {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+        }
+
+        .Card_img {
+            width: 350px;
+            height: 410px;
+        }
+
+        .Product_color {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+
+            .Product_color_img {
+                display: flex;
+                gap: 5px;
+            }
+        }
+    }
+
+    .product_details {
+        padding-top: 20px;
+        color: $officailBlue;
+        text-align: start;
+        padding-left: 20px;
+        height: 102px;
+        width: 350px;
+        background-color: $firstBGColor;
+        display: none;
+    }
+}
+
+.Product_card_wrapper:hover .product_details {
+    display: block;
+}
+
+.Product_card_wrapper:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+    .Product_card_wrapper {
+        width: 315px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    
+        .Product_card {
+            position: relative;
+            border-radius: 2px;
+    
+            .Product_heart {
+                position: absolute;
+                bottom: 10px;
+                right: 20px;
+            }
+    
+            .Card_img {
+                width: 260px;
+                height: 260px;
+            
+            }
+    
+            .Product_color {
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+    
+                .Product_color_img {
+                    display: flex;
+                    gap: 5px;
+                }
+            }
+        }
+    
+        .product_details {
+            padding-top: 20px;
+            color: $officailBlue;
+            text-align: start;
+            padding-left: 20px;
+            height: 102px;
+            width: 315px;
+            background-color: $firstBGColor;
+           display: block   ;
+        }
+    }
+    
+    
+    
+}

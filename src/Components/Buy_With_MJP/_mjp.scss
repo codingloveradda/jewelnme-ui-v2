@@ -1,0 +1,90 @@
+.mjp_img {
+    p {
+        font-size: 42px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+}
+
+.mjp_content {
+
+    .mjp_details {
+        border-right: 1px solid rgba(119, 125, 133, 0.2);
+
+        p {
+            font-size: 1.125rem; //18px
+            font-weight: 300;
+        }
+
+        a {
+            font-size: 1.125rem;
+            /* 18px */
+        }
+    }
+
+    .mjp_table {
+
+        p {
+            font-size: 1rem;
+            /* 16px */
+        }
+
+        table,
+        th,
+        tfoot td {
+            padding: 8px;
+        }
+
+        table,
+        thead,
+        tbody,
+        tfoot tr {
+            width: 100%;
+            border: 1px solid rgba(112, 112, 112, 0.3);
+        }
+
+        table {
+
+            thead,
+            tfoot {
+                text-align:justify;
+                background: #F9F9F9 0% 0% no-repeat padding-box;
+            }
+
+            span {
+                font-size: 0.875rem;
+                /* 14px */
+                color: #777D85;
+                font-weight: 300;
+            }
+
+           thead th, td {
+                padding-left: 25px;
+            }
+
+            tbody {
+
+                td {
+                    color: rgba(25, 37, 55, 1);
+                    font-weight: 300;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+            }
+
+            #total {
+                color: #A18A66;
+            }
+        }
+
+        .watermark {
+
+            p {
+                font-size: 2.25rem;
+                /* 36px */
+                color: rgba(54, 70, 82, 0.1);
+                font-weight: bold;
+            }
+        }
+    }
+}

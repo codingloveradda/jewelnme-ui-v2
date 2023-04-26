@@ -1,0 +1,72 @@
+.dashboard-deatils::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard {
+    padding: 37px 55px 0px 55px;
+    @include flex-col;
+
+    &-content {
+        @include flex-col;
+        gap: 26px;
+
+        .content-img {
+            display: flex;
+            gap: 31px;
+            align-items: center;
+
+            .content {
+                @include flex-col;
+                gap: 5px;
+
+                p {
+                    font-size: 16px;
+                    color: $darkblack;
+
+                    span {
+                        color: $gray;
+                    }
+                }
+            }
+        }
+
+        .other {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+            p {
+                font-size: 16px;
+                color: $gray;
+            }
+
+            span {
+                height: 16px;
+                width: 200px;
+                background-color: $whiteF9;
+            }
+        }
+    }
+
+    .dashboard-deatils {
+        padding: 28px 0 0 0;
+        overflow: auto;
+        height: 520px;
+
+        .myDashboard {
+            display: flex;
+            gap: 25px;
+            padding: 25px 0px;
+            border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+
+            p{
+                font-size: 18px;
+                color: $darkblack;
+            }
+        }
+        .myDashboard:last-child{
+            border: 0;
+        }
+
+    }
+}

@@ -1,0 +1,15 @@
+.mainname h3{
+        font-size: 36px;
+        color: $whiteF2;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+        font-weight: 700;
+    }
+
+    @media (min-width: 768px) and (max-width: 1439px){
+        .mainname h3{
+            font-size: 24px;
+        } 
+    }
+
+

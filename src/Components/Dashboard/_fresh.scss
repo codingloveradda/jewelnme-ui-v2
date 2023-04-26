@@ -1,0 +1,66 @@
+.fresh{
+    border: 0.20000000298023224px solid rgba(112, 112, 112, 0.3);
+    border-radius: 10px;
+    @include flex-col;
+
+
+    .fresh-top{
+        display: flex;
+        gap: 55px;
+        
+
+        .fresh-img{
+            width: 170px;
+            height: 170px;
+        }
+
+        .fresh-title{
+            @include flex-col;
+            gap: 20px;
+            justify-content: center;
+            font-size: 18px;
+            color: $darkblack;
+
+            span{
+                color: $gold;
+            }
+        }
+        .fresh-view{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 20px;
+            font-size: 18px;
+            color: $darkblack;
+            width: 58%;
+            margin-top: 80px;
+            margin-right: 40px;
+        }
+    }
+
+    .fresh-bottom{
+        background-color: $whiteF9;
+        border-radius: 0 0 10px  10px;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+    .fresh{
+        .fresh-top{
+            gap: 5px;
+            .fresh-img{
+                height: 0px;
+            }
+            .fresh-title{
+                font-size: 14px;
+            }
+            .fresh-view{
+                gap: 10px;
+                font-size: 14px;
+                margin-right: 25px;
+                margin-bottom: 10px;
+            }
+        }       
+    }
+}

@@ -1,0 +1,26 @@
+.carousel-head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: $officailBlue;
+}
+
+.carousel_card {
+    h2 {
+        font-size: 20px;
+        color: $officailBlue;
+        font-weight: 600;
+        margin :12px 0px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 300;
+        color: $gray;
+        text-align: justify;
+    }
+}

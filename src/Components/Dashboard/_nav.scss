@@ -1,0 +1,27 @@
+#dashboard-ul{
+    display: flex;
+    gap: 10px;
+    padding: 30px 100px 0 100px;
+
+    li {
+        color: $gray;
+        font-size: 16px;
+    }
+
+    li:last-child {
+        color: $darkblack;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+    #dashboard-ul{
+        padding: 20px 0 0 30px;
+        li {
+            font-size: 14px;
+        }
+        li:last-child {
+            font-size: 14px;
+        }
+    }
+}

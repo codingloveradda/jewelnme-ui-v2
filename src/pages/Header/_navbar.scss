@@ -1,0 +1,129 @@
+@import "../../styles/substyles/colors";
+@import "../../styles/substyles/mixin";
+
+.Offer_bar {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    background-color: $officailBlue;
+    color: $fontWhite;
+    align-items: center;
+
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.Logo_bar {
+    align-items: center;
+    padding: 30px 100px;
+    @include bottem-shadow;
+}
+
+.navigation_bar {
+    padding: 15px;
+    @include bottem-shadow;
+}
+
+
+
+
+.checkbtn {
+    font-size: 24px;
+    color: #192537;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+
+    .hamburger {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+
+    .logobar_icons {
+        display: none;
+    }
+
+    .checkbtn {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav_ul {
+        position: absolute;
+        width: 100%;
+        height: 80vh;
+        background: #F9F9F9;
+        top: 130px;
+        left: -100%;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .nav_ul li a {
+        margin: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: rgb(202 138 4);
+    }
+
+    #check:checked~.nav_ul {
+        left: 0;
+    }
+}
+
+
+
+
+
+@mixin Mega-menu {
+    display: none;
+    position: relative;
+    box-shadow: rgba(139, 139, 139, 0.1) 0px 1px 2px 0px;
+}
+
+@mixin Mega-menu-hover {
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.mjp_design {
+    @include Mega-menu;
+}
+
+.Solitaires {
+    @include Mega-menu;
+}
+
+.hoverable:hover .Solitaires {
+    @include Mega-menu-hover;
+}
+
+.hover_effect:hover .mjp_design {
+    @include Mega-menu-hover;
+}
+
+.Rings {
+    @include Mega-menu;
+}
+
+.Rings_hover:hover .Rings {
+    @include Mega-menu-hover;
+}

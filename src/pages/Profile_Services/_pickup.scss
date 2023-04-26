@@ -1,0 +1,25 @@
+.select_day, .select_time {
+    .label {
+        font-size: 1.25rem;
+    }
+
+    .day, .time {
+        background: #F9F9F9 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-style: none;
+        text-align: center;
+    }
+
+    .day{
+        p {
+            font-size: 0.75rem;
+        }
+    }
+
+    .day:hover , .time:hover {
+        background: #192537 0% 0% no-repeat padding-box;
+        opacity: 1;
+        color: #FFFFFF;
+    }
+}
+

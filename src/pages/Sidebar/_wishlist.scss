@@ -1,0 +1,90 @@
+.wishlist::-webkit-scrollbar {
+  display: none;
+}
+
+
+.wishlist {
+  height: 688px;
+  padding: 34px 58px 24px 41px;
+  overflow: auto;
+
+  .title {
+    @include flex-col;
+    gap: 24px;
+    padding-bottom: 5px;
+
+    a {
+      font-size: 18px;
+      color: $darkblack;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: $darkblack;
+      font-weight: 700;
+      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Nunito', sans-serif;
+      font-family: 'Playfair Display', serif;
+
+    }
+  }
+
+  .cards {
+    @include flex-col;
+
+    .details {
+      display: flex;
+      gap: 25px;
+      border-top: 1px solid $gray;
+      padding: 5px 0;
+      width: 100%;
+
+      .image {
+        width: 200px;
+        height: 200px;
+      }
+
+      .content {
+        @include flex-col;
+        justify-content: center;
+        gap: 22px;
+
+        p {
+          font-size: 18px;
+          color: $black;
+        }
+
+        span {
+          font-size: 16px;
+          color: $black;
+        }
+
+        .content-btn {
+          display: flex;
+          gap: 15px;
+
+          a {
+            border: 1px solid #192537;
+            padding: 13px 17px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.button {
+  padding: 24px 58px 34px 54px;
+
+  a {
+    background-color: $darkblack;
+    color: $white;
+    padding: 14px 185px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,34 @@
+@import "../../styles/substyles/colors";
+@import "../../styles/substyles/mixin";
+
+.Our_promise {
+    background-color: $firstBGColor;
+
+    h1 {
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        color: $officailBlue;
+    }
+
+    .Promise_cards {
+        .promise_card {
+            h2 {
+                
+                font-weight: 600;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+
+            p {
+
+                color: $fontGray;
+                font-weight: 500;
+                font-weight: 400;
+            }
+        }
+    }
+}
+

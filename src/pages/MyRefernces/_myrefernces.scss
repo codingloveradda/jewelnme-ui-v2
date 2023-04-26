@@ -1,0 +1,108 @@
+.Refer-img {
+    position: relative;
+
+    .title p {
+        position: absolute;
+        bottom: 400px;
+        left: 33px;
+        font-size: 77px;
+        color: $white;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .refer-btm {
+        @include flex-col;
+        background: $whiteF9;
+        // opacity: 0.05;
+    
+        height: 343px;
+        margin-top: -145px;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        p{
+            font-size: 18px;
+            font-weight: 600;
+            color: $darkblack;
+        }
+        .input-btn{
+            border: 1px solid #192537;
+
+            input{
+                padding: 14px 150px 14px 30px;
+                background-color: transparent;
+                font-size: 18px;
+            }
+            a{
+                padding: 19px 45px;
+                background-color: $darkblack;
+                color: $white;
+                font-size: 18px;
+            }
+        }
+
+        span{
+            font-size: 20px;
+            color: $darkblack;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            
+        }
+        span::after{
+            content: "";
+            width: 150px;
+            height: 2px;
+            background-color: rgba(112, 112, 112, 0.3);
+        }
+        span::before{
+            content: "";
+            width: 150px;
+            height: 2px;
+            background-color: rgba(112, 112, 112, 0.3);
+        }
+
+        .social-icon{
+            display: flex;
+            width: 35px;
+            height: 35px;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+}
+
+.customer-table{
+    h2{
+    font-size: 24px;
+    color: $darkblack;
+    font-weight: 700;
+    text-align: center;
+    padding:  35px 0;
+    }
+
+    table{
+        width: 100%;
+        text-align: center;
+
+        thead{
+             background-color: $whiteF2;
+             font-size: 16px;
+             font-weight: 600;
+             color: $darkblack;
+        }
+    tbody
+        {
+         font-size: 16px;
+         color: $darkblack;
+
+         td{
+            border: 1px solid rgba(119, 125, 133, 0.3);
+         }
+        }
+    }
+}

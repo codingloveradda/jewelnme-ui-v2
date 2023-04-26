@@ -1,0 +1,103 @@
+.addtional-table{
+    padding: 15px 26px;
+    h2{
+        font-size: 18px;
+        color: $darkblack;
+        border-bottom: 0.2px solid rgba(119, 125, 133, 0.5);
+        padding-bottom:5px;
+    }
+    .product-deatil-1 {
+        // border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+        width: 100%;
+    }
+    
+    .Product-table {
+        
+        margin-top: 5px;
+        width: 100%;
+    
+        tr {
+            border: 1px solid $whiteF2;
+    
+    
+            td {
+                border-right: 1px solid $whiteF2;
+                padding: 5px 274px 5px 10px;
+                width: 100%;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+    
+    .Metal-table {
+        
+        width: 100%;
+        margin-top: 5px;
+    
+        tr {
+            border: 1px solid $whiteF2;
+    
+            th {
+                font-size: 14px;
+                border-right: 1px solid $whiteF2;
+                padding: 5px 69px 5px 68px;
+                text-align: center;
+    
+            }
+    
+            td {
+                font-size: 14px;
+                border-right: 1px solid $whiteF2;
+                font-weight: 300;
+                text-align: center;
+                padding: 5px 69px 5px 68px;
+    
+            }
+        }
+    }
+    .stone-table{
+        margin-top: 5px;
+        width: 100%;
+    
+            tr{
+                border: 1px solid $whiteF2;
+        
+        
+                td {
+                    border-right: 1px solid $whiteF2;
+                    padding: 5px 1px 5px 10px;
+                    // width: 100%;
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+            
+        tr:first-child{
+            td{
+                color: $darkblack;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+       
+    }
+    .Price-table {
+        
+        margin-top: 5px;
+        width: 100%;
+    
+        tr {
+            border: 1px solid $whiteF2;
+    
+    
+            td {
+                border-right: 1px solid $whiteF2;
+                padding: 5px 127px 5px 10px;
+                width: 100%;
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+}

@@ -1,0 +1,215 @@
+.cards-transation{
+    display: flex;
+    gap: 50px;
+
+    .cards{
+       width: 50%;
+       @include flex-col;
+
+       gap: 50px;
+
+       .sub-cards{
+         display: flex;
+         gap: 50px;
+
+         .card{
+            @include flex-col;
+            align-items: center;
+            justify-content: center;
+            gap: 34px;
+            border: 0.20000000298023224px solid rgba(119, 125, 133, 0.3);
+            border-radius: 10px;
+            width: 100%;
+            height: 327px;
+
+            .card-img{
+                width: 73px;
+                height: 63px;
+                color: $gold;
+            }
+            .title-img{
+                display: flex;
+                gap: 17px;
+                align-items: center;
+
+                h2{
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+
+            p{
+                background-color: $whiteF2;
+                width: 100%;
+                text-align: center;
+                padding: 12px 0;
+            }
+            .view-img{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                font-size: 16px;
+                color: $darkblack;
+            }
+         }
+       }
+
+    }
+
+    .transation{ 
+        width: 50%;
+        border: 0.20000000298023224px solid  rgba(119, 125, 133, 0.3);
+        border-radius: 10px;
+
+         h2{
+            background-color: $whiteF9;
+            padding: 24px 18px;
+            font-size: 18px;
+            color: $darkblack;
+            border-radius: 10px 10px 0 0;
+    
+        }
+        .transation-table::-webkit-scrollbar {
+            display: none;
+        }
+        .transation-table{
+            // padding: 15px 0;
+            height: 623px;
+            overflow: auto;
+           
+            .table-content{
+                display: flex;
+                border-bottom: 1px solid rgba(119, 125, 133, 0.3); 
+                padding: 15px 0;
+
+                .table-row{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0 30px;
+                    width: 100%;
+
+                    .table-img{
+                        display: flex;
+                        align-items: center;
+                        gap: 35px;
+
+                        .table-detail{
+                            @include flex-col;
+                            gap: 8px;
+                            font-size: 16px;
+                            color: $darkblack;
+                            span{
+                                color: $gray;
+                            }
+                        }
+                    }
+
+                    .price{
+                        font-size: 16px;
+                        color: $darkblack;
+                        span{
+                            color: $green;
+                        }
+                    }
+                }
+            }
+            .table-content:last-child{
+                border-bottom: none; 
+            }
+            
+        }
+           
+        }
+    }
+
+
+    @media (min-width: 768px) and (max-width: 1439px){
+        .cards-transation{
+            @include flex-col;
+            gap: 30px;
+            .cards{
+               width: 100%;
+               gap: 30px;
+               .sub-cards{
+                 gap: 30px;
+                 .card{
+                    gap: 30px;
+                    height: 300px;
+        
+                    .title-img{
+                        gap: 10px;
+                        h2{
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                    }
+                    .view-img{
+                        font-size: 14px;
+                    }
+                 }
+               }
+        
+            }
+        
+            .transation{ 
+                width: 100%;
+                 h2{
+                    padding:  20px;
+                    font-size: 14px;
+                }
+                .transation-table::-webkit-scrollbar {
+                    display: none;
+                }
+                .transation-table{
+                    // padding: 15px 0;
+                    height: 623px;
+                    overflow: auto;
+                   
+                    .table-content{
+                        display: flex;
+                        border-bottom: 1px solid rgba(119, 125, 133, 0.3); 
+                        padding: 15px 0;
+        
+                        .table-row{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 0 30px;
+                            width: 100%;
+        
+                            .table-img{
+                                display: flex;
+                                align-items: center;
+                                gap: 35px;
+        
+                                .table-detail{
+                                    @include flex-col;
+                                    gap: 8px;
+                                    font-size: 16px;
+                                    color: $darkblack;
+                                    span{
+                                        color: $gray;
+                                    }
+                                }
+                            }
+        
+                            .price{
+                                font-size: 16px;
+                                color: $darkblack;
+                                span{
+                                    color: $green;
+                                }
+                            }
+                        }
+                    }
+                    .table-content:last-child{
+                        border-bottom: none; 
+                    }
+                    
+                }
+                   
+                }
+            }
+        
+    }

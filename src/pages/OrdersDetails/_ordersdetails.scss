@@ -1,0 +1,221 @@
+.my-order-left{
+    border: 0.20000000298023224px solid rgba(119, 125, 133, 0.3);
+    width: 30%;
+
+    .summery{
+        padding: 40px 80px 40px 30px;
+        background-color: $whiteF9;
+        p{
+            font-size: 16px;
+            color: $darkblack;
+            span{
+                color: $gold;
+            }
+        }
+        button{
+            color: $white;
+            background-color: $darkblack;
+            padding: 12px 18px;
+            font-size: 17px;
+            width: 85%;
+            margin-top: 30px;
+        }
+    }
+
+    .order-summery{
+         padding: 5px 30px;
+         color: $darkblack;
+         h3{
+            font-size: 18px;
+            margin-bottom: 15px;
+         }
+         P{
+            font-size: 16px;
+            font-weight: 300;
+         }
+         h2{
+            font-size: 16px;
+         }
+    }
+
+    .payment-method{
+        padding: 5px 30px;
+        color: $darkblack;
+        h3{
+            font-size: 18px;
+            margin-bottom: 15px;
+         }
+         P{
+            font-size: 16px;
+            font-weight: 300;
+         }
+    }
+    .delivery-addres{
+        padding: 5px 30px 25px 30px;
+        color: $darkblack;
+
+        h3{
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 300;
+        }
+        
+    }
+}
+
+.my-order-right{
+    width: 70%;
+  
+
+    h1{
+        color: $darkblack;
+        font-size: 20px;
+
+        span{
+            color: $gold;
+        }
+    }
+    .my-order-right-btn button{
+       background-color: $darkblack;
+       color: $white;
+    //    padding: 12px 0 8px 0;
+       text-align: center;
+    }
+    .product-detail{
+        border-top: 1px solid rgba(119, 125, 133, 0.3);
+        margin-top: 8px;
+        position: relative;
+        p{
+            font-size: 18px;
+            color: $darkblack;
+        }
+
+        .product-deatil-1{
+            border-bottom: 1px solid rgba(119, 125, 133, 0.3);
+            width: 100%;
+        }
+
+         .Product-table{
+            display: none;
+            margin-top: 5px;
+            width: 100%;
+        
+            tr{
+                border: 1px solid $whiteF2;
+              
+                
+                td{
+                    border-right: 1px solid $whiteF2;
+                    padding: 5px 274px 5px 10px;
+                    width: 100%;  
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            } 
+        }
+        .Metal-table{
+            display: none;
+            width: 100%;
+            margin-top: 5px;
+
+            tr{
+                border: 1px solid $whiteF2;
+
+                th{
+                    font-size: 14px;
+                    border-right: 1px solid $whiteF2;
+                    padding: 5px 69px 5px 68px;
+                    text-align: center;
+                    
+                }
+                td{
+                    font-size: 14px;
+                    border-right: 1px solid $whiteF2;
+                    font-weight: 300;
+                    text-align: center;
+                    padding: 5px 69px 5px 68px;
+
+                }
+            }
+        }
+        
+        .Price-table{
+            display: none;
+            margin-top: 5px;
+            width: 100%;
+        
+            tr{
+                border: 1px solid $whiteF2;
+              
+                
+                td{
+                    border-right: 1px solid $whiteF2;
+                    padding: 5px 127px 5px 10px;
+                    width: 100%;  
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            } 
+        }
+
+
+        }
+
+        .product-deatil-1:hover .Product-table{
+            display: block;
+             width: 100%;
+        }
+        .product-deatil-1:hover .Metal-table{
+        display: block;
+         width: 100%;
+        }
+        .product-deatil-1:hover .Price-table{
+            display: block;
+            width: 100%;
+        }
+
+  
+        
+      
+    .order-confim{
+        background-color: $whiteF9;
+        @include flex-col;
+        padding: 45px 76px;
+        position: relative;
+        gap: 45px;
+        margin-top: 20px;
+
+        .order-details{
+            font-size: 14px;
+            font-weight: 600;
+            color: $gold;
+        }
+        .order-date{
+            font-size: 14px;
+            color: $gray;
+        }
+
+        .order-item{
+            font-size: 14px;
+            color: $darkblack;
+            margin-top: 10px;
+           
+
+            p{
+                font-weight: 300;
+              
+            }
+        }
+
+        .order-process-bar{
+            border: 2px solid $gold;
+        }
+        .order-process-bar-2{
+            border: 2px solid $gray;
+
+        }
+    }
+}

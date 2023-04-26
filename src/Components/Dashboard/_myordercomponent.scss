@@ -1,0 +1,65 @@
+.fresh-P46{
+    @include flex-col;
+
+
+    .fresh-P46-top{
+        display: flex;
+        gap: 27px;
+        
+
+        .fresh-img{
+            width:  260px;
+            height: 260px;
+        }
+
+        .fresh-title{
+            @include flex-col;
+            gap: 30px;
+            justify-content: center;
+            color: $darkblack;  
+            padding: 35px 35px 35px 0px;
+
+            .fresh-first p{
+                font-size: 20px;
+  
+                span{
+                  color: $gold;
+                }
+              }
+            .fresh-second{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border: 1px solid rgba(119, 125, 133, 0.3);
+                font-size: 14px;
+                
+                p{
+                    border-right: 1px solid rgba(119, 125, 133, 0.3); 
+                }
+                   
+                p:last-child{
+                    border-right: none; 
+                }
+
+                span{
+                    color: $gold;
+                }
+            }
+            .fresh-third{
+             
+                select{
+                    padding: 14px 30px;
+                    border: 1px solid rgba(25, 37, 55, 0.3);
+                    border-radius: 2px;
+                    background-color: $white;
+            
+                }
+            }
+            
+           
+           
+        }
+    }
+
+   
+}

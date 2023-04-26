@@ -1,0 +1,26 @@
+.notification{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 30px 15px;
+    gap: 26px;
+    border-bottom: 0.2px solid rgba(119, 125, 133, 0.3);;
+
+    .box{
+        width: 91px;
+        height: 91px;
+        background-color: $whiteF2;
+    }
+    .content{
+        @include flex-col;
+        gap: 13px;
+
+        p{
+            font-size: 20px;
+            color: $darkblack;
+        }
+        span{
+            font-size: 16px;
+            color: $gray;
+        }
+    }
+}

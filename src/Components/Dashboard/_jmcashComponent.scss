@@ -1,0 +1,55 @@
+.jmcash{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.2px solid rgba(119, 125, 133, 0.3);  
+    border-radius: 10px;
+   
+
+    .img-title{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 39px 0px 39px 67px;
+
+        h1{
+            font-size: 36px;
+            font-weight: 700;
+            color: $darkblack;
+        }
+    }
+
+    .balance{
+        background-color: $whiteF9;
+        @include flex-col;
+        justify-content: center;
+        gap: 10px;
+        padding: 50px 30px;
+        width: 40%;
+        border-radius: 0px 10px 10px 0;
+        h2{
+            font-size: 20px;
+            font-weight: 600;
+            color: $darkblack;
+        }
+
+        .balance-btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                font-size: 36px;
+                color: $darkblack;
+            }
+
+            a{
+                border: 1px solid rgba(119, 125, 133, 0.7);
+                border-radius: 2px;
+                padding: 10px 30px;
+                font-size: 18px;
+                color: $darkblack;
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.special-discount::-webkit-scrollbar {
+    display: none;
+}
+.box{    
+    height: 750px;
+.jmbenfit71{
+    position: relative;
+    .cancle-img{
+        position: absolute;
+        right: 40px;
+        bottom: 50px;
+    }
+    h1{
+        font-size: 24px;
+        font-weight: 600;
+        position: absolute;
+        bottom: 22px;
+    left: 63px;
+    }
+}
+.discount{
+    display: flex;
+    align-items: center;
+    padding: 27px 76px;
+    background-color: rgba(241, 244, 247, 0.5);
+    gap: 30px;
+
+    p{
+        font-size: 16px;
+        color: $gray;
+    }
+    span{
+        font-size: 16px;
+        color: $gold;
+    }
+}
+.special-discount{
+    padding: 12px 50px;
+    @include flex-col;
+    gap: 30px;
+    overflow: auto;
+    height: 451px;
+
+    .special-border-btm{
+        border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+     
+    }
+    .jmcoupon{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          
+          p{
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            color: $darkblack;
+            padding: 0;
+          }
+          .jmcoupon-input{
+            border: 1PX solid $darkblack;
+            
+            input::placeholder{
+                color: $darkblack;
+                font-size: 16px;
+                padding-left: 15px;
+            }
+            button{
+                background-color: $darkblack;
+                color: $white;
+                font-size: 16px;
+                padding: 12px 40px 9px 40px;
+            }
+          }
+    }
+}
+.jmcoupon-add-btn{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding:10px 50px;
+    button{
+    background-color: $darkblack;
+    color: $white;
+    padding: 14px 50px;
+    }
+}
+}
